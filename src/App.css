@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #b9b4c7;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+}
+.seating-info-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .seating-info-container {
+    margin-top: 50px;
+    gap: 80px;
+    width: 20%;
+    flex-direction: column;
+  }
+}
+.seatInfo {
+  font-size: 35px;
+  color: #fff;
+}
+.seat-legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  color: #000; 
+}
+.seat-legend span {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.seat-legend .seatInfo.booked {
+  color: gray;
+}
+
+.seat-legend .seatInfo.available {
+  color: #fff;
+}
+
+.seat-legend .seatInfo.selected {
+  color: #37bd6f;
+}
+
+.active-modal {
+  opacity: 0.8;
+}
+.booking-container {
+  flex-grow: 1;
+  width: 98%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 10px;
+}

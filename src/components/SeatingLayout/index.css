@@ -1,0 +1,18 @@
+.seat-type-heading {
+    text-align: start;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #4f4a45;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .seats-container {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
