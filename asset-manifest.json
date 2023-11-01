@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/booking-seats-app/static/css/main.2415c4ac.css",
+    "main.js": "/booking-seats-app/static/js/main.dbf2100d.js",
+    "static/js/787.5ae9a9c9.chunk.js": "/booking-seats-app/static/js/787.5ae9a9c9.chunk.js",
+    "index.html": "/booking-seats-app/index.html",
+    "main.2415c4ac.css.map": "/booking-seats-app/static/css/main.2415c4ac.css.map",
+    "main.dbf2100d.js.map": "/booking-seats-app/static/js/main.dbf2100d.js.map",
+    "787.5ae9a9c9.chunk.js.map": "/booking-seats-app/static/js/787.5ae9a9c9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2415c4ac.css",
+    "static/js/main.dbf2100d.js"
+  ]
+}
